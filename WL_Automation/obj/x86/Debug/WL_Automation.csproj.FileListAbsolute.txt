@@ -1,0 +1,10 @@
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\bin\Debug\WL_Automation.rxtmg
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\bin\Debug\WL_Automation.rxtst
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\bin\Debug\WL_Automation.exe.config
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\bin\Debug\WL_Automation.xml
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\bin\Debug\WL_Automation.exe
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\bin\Debug\WL_Automation.pdb
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\obj\x86\Debug\WL_Automation.csprojResolveAssemblyReference.cache
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\obj\x86\Debug\WL_Automation.exe
+C:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\obj\x86\Debug\WL_Automation.pdb

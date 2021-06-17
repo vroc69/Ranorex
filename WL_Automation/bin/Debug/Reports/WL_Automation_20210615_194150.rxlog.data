@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.6m"
+		durationms="98792"
+		type="root"
+		rid="306f828dcec682ec"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="OOCV85091"
+		rxversion="9.5.0.0"
+		host="MXPC_VICTOROR"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="en-US"
+		screenresolution="2732x768"
+		timestamp="6/15/2021 7:41:50 PM"
+		timestampiso="2021-06-16T00:41:50"
+		endtime="6/15/2021 7:43:29 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="1.6m"
+			durationms="96050"
+			type="test-suite"
+			rid="2944861ef0158dc8"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="WL_Automation"
+			headertext="WL_Automation"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="url">
+					https://www.saucedemo.com/
+				</param>
+				<param
+					name="browserName">
+					edge
+				</param>
+				<param
+					name="usrValid">
+					standard_user
+				</param>
+				<param
+					name="psw">
+					secret_sauce
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="1.6m"
+				durationms="96017"
+				type="test-case"
+				rid="2e5d7cd222c136"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC004_SortProductsByPrice"
+				testcontainerid="59fb93e9-c6d0-44aa-84b1-ed4449a69f04"
+				headertext="TC004_SortProductsByPrice"
+				displayName="TC004_SortProductsByPrice"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="1.2m"
+					durationms="69005"
+					type="test-module"
+					rid="32194aaf5e42497"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="logIn"
+					displayName="logIn"
+					moduleid="ed93e3b1-bdc9-4040-a471-434ea8c53944"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="user"
+							value="standard_user">
+						</varbinding>
+						<varbinding
+							name="password"
+							value="secret_sauce">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.059"
+						timeRelativeToTestModuleStartTime="00:00.010"
+						timeWallClock="19:41:53"
+						time="00:00.059"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$user = 'standard_user', $password = 'secret_sauce'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.273"
+						timeRelativeToTestModuleStartTime="00:02.224"
+						timeWallClock="19:41:55"
+						time="00:02.273"
+						level="Success"
+						category="Validation">
+						<message>
+							Element '{DivTag:login_wrapper-inner}' does exist.
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\logIn.cs"
+							codeline="60"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.390"
+						timeRelativeToTestModuleStartTime="00:02.342"
+						timeWallClock="19:41:55"
+						time="00:02.390"
+						level="Info"
+						category="User">
+						<message>
+							Overwriting {InputTag:user-name} with text 'standard_user'
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\AdapterExtensions.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.940"
+						timeRelativeToTestModuleStartTime="00:04.892"
+						timeWallClock="19:41:58"
+						time="00:04.940"
+						level="Info"
+						category="User">
+						<message>
+							Overwriting {InputTag:password} with text 'secret_sauce'
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\AdapterExtensions.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.382"
+						timeRelativeToTestModuleStartTime="00:07.333"
+						timeWallClock="19:42:00"
+						time="00:07.382"
+						level="Info"
+						category="Screenshot"
+						errimg="images_WL_Autom_3cc3113d\WL_Autom_13138139_rxlog.jpg"
+						errthumb="images_WL_Autom_3cc3113d\WL_Autom_13138139_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\logIn.cs"
+							codeline="63"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:08.528"
+						timeRelativeToTestModuleStartTime="01:08.480"
+						timeWallClock="19:43:02"
+						time="01:08.528"
+						level="Success"
+						category="Validation">
+						<message>
+							Product screen is displayed !!
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\logIn.cs"
+							codeline="73"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:08.554"
+						timeRelativeToTestModuleStartTime="01:08.506"
+						timeWallClock="19:43:02"
+						time="01:08.554"
+						level="Success"
+						category="User">
+						<message>
+							Success login !!
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\logIn.cs"
+							codeline="74"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="20.34s"
+					durationms="20341"
+					type="test-module"
+					rid="d5f6a16aaf262e"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="SortProducts"
+					displayName="SortProducts"
+					moduleid="76425923-cb69-45be-bf25-e2a7f9baa395"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="01:09.057"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="19:43:02"
+						time="01:09.057"
+						level="Warn"
+						category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>sortBy
+						</message>
+						<metainfo
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:09.084"
+						timeRelativeToTestModuleStartTime="00:00.027"
+						timeWallClock="19:43:02"
+						time="01:09.084"
+						level="Info"
+						category="User">
+						<message>
+							Sort products by&#32;
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="57"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:09.169"
+						timeRelativeToTestModuleStartTime="00:00.113"
+						timeWallClock="19:43:02"
+						time="01:09.169"
+						level="Success"
+						category="Validation">
+						<message>
+							Element '{SpanTag:Products}' does exist.
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="58"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:11.250"
+						timeRelativeToTestModuleStartTime="00:02.194"
+						timeWallClock="19:43:04"
+						time="01:11.250"
+						level="Info"
+						category="User">
+						<message>
+							Selecting item 'Price (low to high)' in {SelectTag:product_sort_container}
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\AdapterExtensions.cs"
+							codeline="145"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:11.872"
+						timeRelativeToTestModuleStartTime="00:02.816"
+						timeWallClock="19:43:05"
+						time="01:11.872"
+						level="Info"
+						category="Screenshot"
+						errimg="images_WL_Autom_3cc3113d\WL_Autom_b5baf5d4_rxlog.jpg"
+						errthumb="images_WL_Autom_3cc3113d\WL_Autom_b5baf5d4_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="61"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:14.331"
+						timeRelativeToTestModuleStartTime="00:05.275"
+						timeWallClock="19:43:07"
+						time="01:14.331"
+						level="Info"
+						category="User">
+						<message>
+							0 || $7.99
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="72"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:16.755"
+						timeRelativeToTestModuleStartTime="00:07.699"
+						timeWallClock="19:43:10"
+						time="01:16.755"
+						level="Info"
+						category="User">
+						<message>
+							1 || $9.99
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="72"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:19.339"
+						timeRelativeToTestModuleStartTime="00:10.282"
+						timeWallClock="19:43:12"
+						time="01:19.339"
+						level="Info"
+						category="User">
+						<message>
+							2 || $15.99
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="72"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:21.795"
+						timeRelativeToTestModuleStartTime="00:12.739"
+						timeWallClock="19:43:15"
+						time="01:21.795"
+						level="Info"
+						category="User">
+						<message>
+							3 || $15.99
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="72"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:24.259"
+						timeRelativeToTestModuleStartTime="00:15.203"
+						timeWallClock="19:43:17"
+						time="01:24.259"
+						level="Info"
+						category="User">
+						<message>
+							4 || $29.99
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="72"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:26.682"
+						timeRelativeToTestModuleStartTime="00:17.626"
+						timeWallClock="19:43:20"
+						time="01:26.682"
+						level="Info"
+						category="User">
+						<message>
+							5 || $49.99
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="72"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:28.850"
+						timeRelativeToTestModuleStartTime="00:19.794"
+						timeWallClock="19:43:22"
+						time="01:28.850"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:28.897"
+						timeRelativeToTestModuleStartTime="00:19.841"
+						timeWallClock="19:43:22"
+						time="01:28.897"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:28.930"
+						timeRelativeToTestModuleStartTime="00:19.874"
+						timeWallClock="19:43:22"
+						time="01:28.930"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:28.962"
+						timeRelativeToTestModuleStartTime="00:19.906"
+						timeWallClock="19:43:22"
+						time="01:28.962"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:28.980"
+						timeRelativeToTestModuleStartTime="00:19.924"
+						timeWallClock="19:43:22"
+						time="01:28.980"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.013"
+						timeRelativeToTestModuleStartTime="00:19.957"
+						timeWallClock="19:43:22"
+						time="01:29.013"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.046"
+						timeRelativeToTestModuleStartTime="00:19.990"
+						timeWallClock="19:43:22"
+						time="01:29.046"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.079"
+						timeRelativeToTestModuleStartTime="00:20.023"
+						timeWallClock="19:43:22"
+						time="01:29.079"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.129"
+						timeRelativeToTestModuleStartTime="00:20.073"
+						timeWallClock="19:43:22"
+						time="01:29.129"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.165"
+						timeRelativeToTestModuleStartTime="00:20.109"
+						timeWallClock="19:43:22"
+						time="01:29.165"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.197"
+						timeRelativeToTestModuleStartTime="00:20.141"
+						timeWallClock="19:43:22"
+						time="01:29.197"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.230"
+						timeRelativeToTestModuleStartTime="00:20.173"
+						timeWallClock="19:43:22"
+						time="01:29.230"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.265"
+						timeRelativeToTestModuleStartTime="00:20.208"
+						timeWallClock="19:43:22"
+						time="01:29.265"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.301"
+						timeRelativeToTestModuleStartTime="00:20.244"
+						timeWallClock="19:43:22"
+						time="01:29.301"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.330"
+						timeRelativeToTestModuleStartTime="00:20.274"
+						timeWallClock="19:43:22"
+						time="01:29.330"
+						level="Info"
+						category="User">
+						<message>
+							Data is sorted
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.363"
+						timeRelativeToTestModuleStartTime="00:20.307"
+						timeWallClock="19:43:22"
+						time="01:29.363"
+						level="Info"
+						category="User">
+						<message>
+							Sorted?: True
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Products\SortProducts.cs"
+							codeline="83"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="6.65s"
+					durationms="6645"
+					type="test-module"
+					rid="16fcd2b5af80c9c4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="LogOut"
+					displayName="LogOut"
+					moduleid="161c8148-2cda-4fd6-b5d0-1d0a09805f8e"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="01:35.931"
+						timeRelativeToTestModuleStartTime="00:06.530"
+						timeWallClock="19:43:29"
+						time="01:35.931"
+						level="Success"
+						category="Validation">
+						<message>
+							Element '{DivTag:login_wrapper-inner}' does exist.
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\LogOut.cs"
+							codeline="58"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:36.024"
+						timeRelativeToTestModuleStartTime="00:06.623"
+						timeWallClock="19:43:29"
+						time="01:36.024"
+						level="Info"
+						category="Screenshot"
+						errimg="images_WL_Autom_3cc3113d\WL_Autom_cdc49803_rxlog.jpg"
+						errthumb="images_WL_Autom_3cc3113d\WL_Autom_cdc49803_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\LogOut.cs"
+							codeline="59"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:36.026"
+						timeRelativeToTestModuleStartTime="00:06.625"
+						timeWallClock="19:43:29"
+						time="01:36.026"
+						level="Success"
+						category="User">
+						<message>
+							Success logout !!
+						</message>
+						<metainfo
+							codefile="c:\Users\OOCV85091\Documents\Ranorex\RanorexStudio Projects\WL_Automation\WL_Automation\Common\LogOut.cs"
+							codeline="60"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

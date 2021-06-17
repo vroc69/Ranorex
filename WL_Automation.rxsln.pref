@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{03737F39-F853-4EB9-B9DD-DF6AC6BF822A}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>f84d48da-27c1-4293-81e5-226fa149492a</string>
+      <string>9b250937-1290-48d8-91cf-befdc53bc5c8</string>
+      <string>d5099c2e-f523-478a-81b3-c6749e8060d4</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution WL_Automation[WL_Automation[]]]&#xD;&#xA;Solution WL_Automation\WL_Automation\WL_Automation.rxtst&#xD;&#xA;Solution WL_Automation" />
+  <StartupProject value="{03737F39-F853-4EB9-B9DD-DF6AC6BF822A}" />
+</Properties>

@@ -1,0 +1,1068 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WL_Automation</name>
+    </assembly>
+    <members>
+        <member name="T:WL_Automation.Cart.Checkout">
+            <summary>
+            Description of Checkout.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Cart.Checkout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Cart.Checkout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:WL_Automation.Cart.CompletePurchase">
+            <summary>
+            Description of CompletePurchase.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Cart.CompletePurchase.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Cart.CompletePurchase.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:WL_Automation.Cart.Overview">
+            <summary>
+            Description of Overview.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Cart.Overview.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Cart.Overview.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:WL_Automation.Common.AdapterExtensions">
+            <summary>
+            InputTag adds Extension Methods to Ranorex adapter classes
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.Start(Ranorex.Core.Testing.ITestModule)">
+            <summary>
+            Runs the ITestModule instance with TestModuleRunner.Run()
+            </summary>
+            <param name="testModule"></param>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.HasValue(System.String)">
+            <summary>
+            Tests if string has a value (is not null or empty)
+            </summary>
+            <returns>true if string is not null or empty</returns>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.IsNumeric(System.String,System.Globalization.NumberStyles)">
+            <summary>
+            Tests if string is a numeric value
+            </summary>
+            <returns>true if string can be parsed as the given number style</returns>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.IsNumeric(System.String)">
+            <summary>
+            Tests if string is a numeric value
+            </summary>
+            <returns>true if string can be parsed as a double</returns>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.IsCurrency(System.String)">
+            <summary>
+            Tests if string is a currency value
+            </summary>
+            <returns>true if string can be parsed as a currency</returns>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.OverwriteText(Ranorex.WebElement,System.String)">
+            <summary>
+            Replace the contents of a textbox with the submitted string
+            </summary>
+            <param name="text">text to insert into input box</param>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.ClearText(Ranorex.WebElement)">
+            <summary>
+            Delete all text currently in textbox
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.SelectOption(Ranorex.SelectTag,System.String)">
+            <summary>
+            Selects an OptionTag by InnerText within a SelectTag 
+            (ignores case)
+            </summary>
+            <param name="listItem">name of item to select</param>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.SelectOption2(Ranorex.SelectTag,System.String)">
+            <summary>
+            Selects an OptionTag by InnerText within a SelectTag 
+            without "$"
+            </summary>
+            <param name="listItem">name of item to select</param>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.SelectOption(Ranorex.SelectTag,System.Text.RegularExpressions.Regex)">
+            <summary>
+            Selects an OptionTag by InnerText 
+            that matches a given regex string
+            </summary>
+            <param name="itemRegex">regular expression matching the item to be selected</param>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.GetSelectedOption(Ranorex.SelectTag)">
+            <summary>
+            Return the selected OptionTag for the this SelectTag
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.GetSelectedOptionText(Ranorex.SelectTag)">
+            <summary>
+            Return the selected string for this SelectTag
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.ToggleOn(Ranorex.InputTag)">
+            <summary>
+            Toggle a checkbox to 'ON'
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.AdapterExtensions.ToggleOff(Ranorex.InputTag)">
+            <summary>
+            Toggle a checkbox to 'OFF'
+            </summary>
+        </member>
+        <member name="T:WL_Automation.Common.CloseBrowser">
+            <summary>
+            Description of CloseBrowser.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:WL_Automation.Common.logIn">
+            <summary>
+            Description of logIn.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.logIn.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.logIn.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:WL_Automation.Common.LogOut">
+            <summary>
+            Description of LogOut.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.LogOut.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.LogOut.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:WL_Automation.Common.OpenBrowser">
+            <summary>
+            Description of OpenBrowser.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Common.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:WL_Automation.Products.AddProductsToCart">
+            <summary>
+            Description of AddProductsToCart.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Products.AddProductsToCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Products.AddProductsToCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WL_Automation.Products.AddProductsToCart.addProduct(System.Int32)">
+            To add products to Cart
+            @param num products
+            
+            
+        </member>
+        <member name="T:WL_Automation.Products.AddSpecificProduct">
+            <summary>
+            Description of AddSpecificProduct.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Products.AddSpecificProduct.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Products.AddSpecificProduct.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:WL_Automation.Products.SortProducts">
+            <summary>
+            Description of SortProducts.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Products.SortProducts.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.Products.SortProducts.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:WL_Automation.Products.SortProducts.verifySort(System.Decimal[])">
+            Verify if sort is correct
+            @param prices
+            
+            
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepository">
+            <summary>
+            The class representing the WL_AutomationRepository element repository.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the WL_AutomationRepository element repository.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepository.productName">
+            <summary>
+            Gets or sets the value of variable productName.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepository.Saucedemo">
+            <summary>
+            The Saucedemo folder.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder">
+            <summary>
+            The SaucedemoAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Saucedemo  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.Login">
+            <summary>
+            The Login folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.HeaderSection">
+            <summary>
+            The HeaderSection folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.Products">
+            <summary>
+            The Products folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.CartDetails">
+            <summary>
+            The CartDetails folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.Checkout">
+            <summary>
+            The Checkout folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.Overview">
+            <summary>
+            The Overview folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.PurchaseDone">
+            <summary>
+            The PurchaseDone folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.SaucedemoAppFolder.Menu">
+            <summary>
+            The Menu folder.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder">
+            <summary>
+            The LoginFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Login  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.UserName_input">
+            <summary>
+            The UserName_input item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.UserName_inputInfo">
+            <summary>
+            The UserName_input item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.Password_input">
+            <summary>
+            The Password_input item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.Password_inputInfo">
+            <summary>
+            The Password_input item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.Login_button">
+            <summary>
+            The Login_button item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.Login_buttonInfo">
+            <summary>
+            The Login_button item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.LoginLogo_div">
+            <summary>
+            The LoginLogo_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.LoginLogo_divInfo">
+            <summary>
+            The LoginLogo_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.LoginWrapperInner_div">
+            <summary>
+            The LoginWrapperInner_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.LoginWrapperInner_divInfo">
+            <summary>
+            The LoginWrapperInner_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.BotColumn_div">
+            <summary>
+            The BotColumn_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.BotColumn_divInfo">
+            <summary>
+            The BotColumn_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.LoginCredentials_div">
+            <summary>
+            The LoginCredentials_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.LoginCredentials_divInfo">
+            <summary>
+            The LoginCredentials_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.SecretSauce_div">
+            <summary>
+            The SecretSauce_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.SecretSauce_divInfo">
+            <summary>
+            The SecretSauce_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.Credentials_div">
+            <summary>
+            The Credentials_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.Credentials_divInfo">
+            <summary>
+            The Credentials_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.ErrorMsg_div">
+            <summary>
+            The ErrorMsg_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.ErrorMsg_divInfo">
+            <summary>
+            The ErrorMsg_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.ErrorContainer_div">
+            <summary>
+            The ErrorContainer_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.LoginFolder.ErrorContainer_divInfo">
+            <summary>
+            The ErrorContainer_div item info.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder">
+            <summary>
+            The HeaderSectionFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HeaderSection  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.Header_div">
+            <summary>
+            The Header_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.Header_divInfo">
+            <summary>
+            The Header_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.AppLogo_div">
+            <summary>
+            The AppLogo_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.AppLogo_divInfo">
+            <summary>
+            The AppLogo_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.Menu_btn">
+            <summary>
+            The Menu_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.Menu_btnInfo">
+            <summary>
+            The Menu_btn item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.ShoppingCart_a">
+            <summary>
+            The ShoppingCart_a item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.HeaderSectionFolder.ShoppingCart_aInfo">
+            <summary>
+            The ShoppingCart_a item info.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder">
+            <summary>
+            The ProductsFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Products  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.Products_span">
+            <summary>
+            The Products_span item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.Products_spanInfo">
+            <summary>
+            The Products_span item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductSort_select">
+            <summary>
+            The ProductSort_select item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductSort_selectInfo">
+            <summary>
+            The ProductSort_select item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductItem_div">
+            <summary>
+            The ProductItem_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductItem_divInfo">
+            <summary>
+            The ProductItem_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductImg_div">
+            <summary>
+            The ProductImg_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductImg_divInfo">
+            <summary>
+            The ProductImg_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductName_div">
+            <summary>
+            The ProductName_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductName_divInfo">
+            <summary>
+            The ProductName_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductDescritpion_div">
+            <summary>
+            The ProductDescritpion_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductDescritpion_divInfo">
+            <summary>
+            The ProductDescritpion_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductPrice_div">
+            <summary>
+            The ProductPrice_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.ProductPrice_divInfo">
+            <summary>
+            The ProductPrice_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.AddProduct_btn">
+            <summary>
+            The AddProduct_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.AddProduct_btnInfo">
+            <summary>
+            The AddProduct_btn item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.numItemsCart_span">
+            <summary>
+            The numItemsCart_span item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.ProductsFolder.numItemsCart_spanInfo">
+            <summary>
+            The numItemsCart_span item info.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder">
+            <summary>
+            The CartDetailsFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CartDetails  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.YourCart_span">
+            <summary>
+            The YourCart_span item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.YourCart_spanInfo">
+            <summary>
+            The YourCart_span item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.CartItem_div">
+            <summary>
+            The CartItem_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.CartItem_divInfo">
+            <summary>
+            The CartItem_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.itemName_div">
+            <summary>
+            The itemName_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.itemName_divInfo">
+            <summary>
+            The itemName_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.itemQyt_div">
+            <summary>
+            The itemQyt_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.itemQyt_divInfo">
+            <summary>
+            The itemQyt_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.itemDesc_div">
+            <summary>
+            The itemDesc_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.itemDesc_divInfo">
+            <summary>
+            The itemDesc_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.priceItem_div">
+            <summary>
+            The priceItem_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.priceItem_divInfo">
+            <summary>
+            The priceItem_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.Remove_btn">
+            <summary>
+            The Remove_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.Remove_btnInfo">
+            <summary>
+            The Remove_btn item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.Checkout_btn">
+            <summary>
+            The Checkout_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.Checkout_btnInfo">
+            <summary>
+            The Checkout_btn item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.ContinueShopping_btn">
+            <summary>
+            The ContinueShopping_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.ContinueShopping_btnInfo">
+            <summary>
+            The ContinueShopping_btn item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.FullCart_div">
+            <summary>
+            The FullCart_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CartDetailsFolder.FullCart_divInfo">
+            <summary>
+            The FullCart_div item info.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder">
+            <summary>
+            The CheckoutFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Checkout  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.CheckoutYourInformation_span">
+            <summary>
+            The CheckoutYourInformation_span item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.CheckoutYourInformation_spanInfo">
+            <summary>
+            The CheckoutYourInformation_span item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.FirstName_input">
+            <summary>
+            The FirstName_input item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.FirstName_inputInfo">
+            <summary>
+            The FirstName_input item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.LastName_input">
+            <summary>
+            The LastName_input item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.LastName_inputInfo">
+            <summary>
+            The LastName_input item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.PostalCode_input">
+            <summary>
+            The PostalCode_input item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.PostalCode_inputInfo">
+            <summary>
+            The PostalCode_input item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.Cancel_btn">
+            <summary>
+            The Cancel_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.Cancel_btnInfo">
+            <summary>
+            The Cancel_btn item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.Continue_btn">
+            <summary>
+            The Continue_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.Continue_btnInfo">
+            <summary>
+            The Continue_btn item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.CheckoutInformation_div">
+            <summary>
+            The CheckoutInformation_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.CheckoutFolder.CheckoutInformation_divInfo">
+            <summary>
+            The CheckoutInformation_div item info.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder">
+            <summary>
+            The OverviewFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Overview  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.totalAmt_div">
+            <summary>
+            The totalAmt_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.totalAmt_divInfo">
+            <summary>
+            The totalAmt_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.TaxDollar240_div">
+            <summary>
+            The TaxDollar240_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.TaxDollar240_divInfo">
+            <summary>
+            The TaxDollar240_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.shippingInfo_div">
+            <summary>
+            The shippingInfo_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.shippingInfo_divInfo">
+            <summary>
+            The shippingInfo_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.totalTotalAmt_div">
+            <summary>
+            The totalTotalAmt_div item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.totalTotalAmt_divInfo">
+            <summary>
+            The totalTotalAmt_div item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.Finish_btn">
+            <summary>
+            The Finish_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.Finish_btnInfo">
+            <summary>
+            The Finish_btn item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.CheckoutOverview_span">
+            <summary>
+            The CheckoutOverview_span item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.OverviewFolder.CheckoutOverview_spanInfo">
+            <summary>
+            The CheckoutOverview_span item info.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder">
+            <summary>
+            The PurchaseDoneFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PurchaseDone  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder.CheckoutComplete_span">
+            <summary>
+            The CheckoutComplete_span item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder.CheckoutComplete_spanInfo">
+            <summary>
+            The CheckoutComplete_span item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder.ThanksOrder_title">
+            <summary>
+            The ThanksOrder_title item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder.ThanksOrder_titleInfo">
+            <summary>
+            The ThanksOrder_title item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder.BackToProducts_btn">
+            <summary>
+            The BackToProducts_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.PurchaseDoneFolder.BackToProducts_btnInfo">
+            <summary>
+            The BackToProducts_btn item info.
+            </summary>
+        </member>
+        <member name="T:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder">
+            <summary>
+            The MenuFolder folder.
+            </summary>
+        </member>
+        <member name="M:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Menu  folder.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.AllItems_menu_link">
+            <summary>
+            The AllItems_menu_link item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.AllItems_menu_linkInfo">
+            <summary>
+            The AllItems_menu_link item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.About_menu_link">
+            <summary>
+            The About_menu_link item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.About_menu_linkInfo">
+            <summary>
+            The About_menu_link item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.Logout_menu_link">
+            <summary>
+            The Logout_menu_link item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.Logout_menu_linkInfo">
+            <summary>
+            The Logout_menu_link item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.Reset_menu_link">
+            <summary>
+            The Reset_menu_link item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.Reset_menu_linkInfo">
+            <summary>
+            The Reset_menu_link item info.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.Close_menu_btn">
+            <summary>
+            The Close_menu_btn item.
+            </summary>
+        </member>
+        <member name="P:WL_Automation.WL_AutomationRepositoryFolders.MenuFolder.Close_menu_btnInfo">
+            <summary>
+            The Close_menu_btn item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
