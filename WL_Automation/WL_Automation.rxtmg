@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="WL_Automation"
+      id="1c3847fb-008e-415e-8db7-a5fdcbdb3b75"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="WL_Automation"
+      id="1c3847fb-008e-415e-8db7-a5fdcbdb3b75"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
